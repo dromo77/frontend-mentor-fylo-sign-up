@@ -85,9 +85,12 @@ i {
     padding: 60px 40px;
 }
 
-.nav {
-    display: flex;
-    justify-content: space-between;
+.logo {
+    float: left;
+}
+
+.icons {
+    float: right;
 }
 
 .txt {
@@ -147,3 +150,60 @@ input {
     }
 
 
+/************************/
+/*** Media Queries ***/
+/************************/
+
+@media only screen and (max-width: 768px) {
+    
+    .flex {
+        display: block;
+    }
+    
+    .bg-gradient {
+        background: none;
+        background-image: url(/images/bg-intro.svg);
+        background-size: cover;
+        background-repeat: none;
+        background-position: center;
+        width: 100%;
+    }
+    
+    .nav {
+        position: absolute;
+        top: 60px;
+    }
+
+    
+    i {
+        color: #ffffff;
+        padding-left: 20px;
+    }
+    
+    .sign-up {
+        width: 100%;
+        padding-top: 0;
+    }
+    
+    .sign-up-form {
+    display: block;
+    }
+
+    input {
+       margin-bottom: 20px;
+    }
+
+    .input {
+        width: 100%;
+
+    }
+
+    .btn {
+        width: 50%;
+        margin-left: 0;
+        padding: 8px;
+        margin-bottom: 60px;
+    }
+    
+    
+}
