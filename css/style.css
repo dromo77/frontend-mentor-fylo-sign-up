@@ -1,0 +1,61 @@
+/************************/
+/*** Document Styles ***/
+/************************/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font: inherit;
+}
+
+html, 
+body {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    color: hsl(0, 0%, 50%);
+    font-size: 14px;
+    text-rendering: optimizeLegibility;
+  
+}
+
+*, *:before, *:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.25rem;
+    margin-bottom: 1.5rem;
+    color: hsl(243, 87%, 12%);
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+    color: hsl(243, 87%, 12%);
+}
+
+i {
+    color: hsl(243, 87%, 12%);
+    font-size: 1.5rem;
+}
+
+
+/************************/
+/*** Footer ***/
+/************************/
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    }
+    
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+    }
