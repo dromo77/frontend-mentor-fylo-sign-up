@@ -170,6 +170,10 @@ input {
         height: 90vh
     }
     
+    .logo-mobile {
+        float: left;
+    }
+    
     .nav {
         position: relative;
         top: -85vh;
