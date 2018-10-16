@@ -166,12 +166,13 @@ input {
         background-size: cover;
         background-repeat: none;
         background-position: center;
-        width: 100%;
+        width: auto;
+        height: 90vh
     }
     
     .nav {
-        position: absolute;
-        top: 60px;
+        position: relative;
+        top: -85vh;
     }
 
     
