@@ -162,7 +162,7 @@ input {
     
     .bg-gradient {
         background: none;
-        background-image: url(/images/bg-intro.svg);
+        background-image: url(images/bg-intro.svg);
         background-size: cover;
         background-repeat: none;
         background-position: center;
