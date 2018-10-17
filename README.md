@@ -4,7 +4,7 @@
 
 ## Welcome! 👋
 
-Thanks for checking out this front-end coding challenge. 
+Thanks for checking out this front-end coding challenge. A demo version of this landing page can be found [here](https://dromo77.github.io/fylo-sign-up/).
 
 [Frontend Mentor](https://www.frontendmentor.io) challenges allow you to improve your skills in a real-life workflow.
 
